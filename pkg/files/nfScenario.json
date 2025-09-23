@@ -1,0 +1,20 @@
+{
+    "Path": "/home/tudor/",
+    "NetworkFunctions": [
+        {
+            "name": "amf",
+            "number": 1,
+            "network": "ground"
+        },
+        {
+            "name": "smf",
+            "number": 1,
+            "network": "ground"
+        },
+        {
+            "name": "upf",
+            "number": 1,
+            "network": "satellite"
+        }
+    ]
+}

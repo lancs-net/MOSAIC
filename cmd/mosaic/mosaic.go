@@ -12,7 +12,7 @@ func main() {
 	requestRouter.GET("/", common.Home)
 
 	// For builidng and running the networks for the deployment
-	// need a JSON input in the form {"net_name":"subnet", ...}
+	// needs a JSON input in the form {"net_name":"subnet", ...}
 	requestRouter.POST("/net", common.NetworkInit)
 	requestRouter.DELETE("/net/:network", common.NetworkRemove)
 
